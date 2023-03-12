@@ -1,17 +1,5 @@
-/*
 
-    OBJETIVO - Quando clicarmos no botão temos que mostrar a imagem de fundo correspondente
-
-    - Passo 1: dar um jeito de pegar o elemento HTML dos botões
-    - Passo 2: dar um jeito de identificar o clique do usuário no botão
-    - Passo 3: desmarcar o botão selecionado anterior
-    - Passo 4: marcar o botão clicado como se estivesse selecionado
-    - Passo 5: esconder a imagem de fundo anterior
-    - Passo 6: fazer aparecer a imagem de fundo correspondente ao botão clicado
-
-*/
-
-const botoesCarrossel = document.querySelectorAll('.botao');    // buscar todos os elementos que tenham a mesma caracteristicas
+const botoesCarrossel = document.querySelectorAll('.botao');
 const imagens = document.querySelectorAll('.imagem');
 
 botoesCarrossel.forEach((botao, indice) => {
